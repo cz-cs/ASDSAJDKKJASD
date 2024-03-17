@@ -1,16 +1,7 @@
-.banner {
-    background-color: #c9bd0c;
-    padding-left: 2px;
-    padding-right: 2px;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    border-radius: 10px;
-}
-
-.pfp {
-    border-radius: 50%;
-    height: 150px;
-    width: auto;
+@font-face {
+    font-family: HelveticaNeue;
+    font-weight: heavy;
+    src: url("fonts/helvetica/heavy.otf") format("opentype");
 }
 
 body {
@@ -25,12 +16,6 @@ body {
     font-family: "Inclusive Sans";
 }
 
-@font-face {
-    font-family: HelveticaNeue;
-    font-weight: heavy;
-    src: url("fonts/helvetica/heavy.otf") format("opentype");
-}
-
 h1 {
     font-family: HelveticaNeue;
     font-weight: bolder;
@@ -43,7 +28,7 @@ h2 {
     font-weight: bold;
 }
 
-p {
+p, a {
     font-size: 20px;
 }
 
@@ -54,8 +39,29 @@ img
     border-radius: 6px;
 }
 
-.table-cell > * {
-    display: table-row;
-    width: 150px; /* Adjust as needed */
-    padding: 10px;
+a:link {
+    color: blueviolet;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: blueviolet;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.banner {
+    background-color: #c9bd0c;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 10px;
+}
+
+.pfp {
+    border-radius: 50%;
+    height: 150px;
+    width: auto;
 }
