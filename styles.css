@@ -65,3 +65,27 @@ a:visited {
     height: 150px;
     width: auto;
 }
+
+.btn {
+  background-color: transparent;
+  color: inherit;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+
+  border-radius: 50px;
+
+
+  background: linear-gradient(to right, #5e30eb 0%, #d357fe 100%);
+  backdrop-filter: blur(1000px) grayscale(1); 
+  transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+
+}
+
+.btn:hover {
+  background-color: linear-gradient(to right, #5e30eb 0%, #d357fe 100%);
+  box-shadow: 
+    0 0 0 2px #5e30eb,
+    0 0 2px 2px #c07aff; 
+}
