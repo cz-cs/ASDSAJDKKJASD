@@ -64,6 +64,17 @@ a:visited {
     border-radius: 50%;
     height: 150px;
     width: auto;
+      transition: box-shadow 0.2s ease-in-out;
+
+}
+
+.pfp:hover {
+    border-radius: 50%;
+    height: 150px;
+    width: auto;
+    box-shadow:
+        0 0 0 2px #5e30eb, 
+        0 0 5px 3px #c07aff; 
 }
 
 
