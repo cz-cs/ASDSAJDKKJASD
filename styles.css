@@ -40,13 +40,13 @@ img
 }
 
 a:link {
-    color: blueviolet;
+    color: white;
     background-color: transparent;
     text-decoration: none;
 }
 
 a:visited {
-    color: blueviolet;
+    color: white;
     background-color: transparent;
     text-decoration: none;
 }
