@@ -4,10 +4,10 @@
     src: url("fonts/helvetica/heavy.otf") format("opentype");
 }
 @font-face {
-font-family: 'Helvetica';
-font-style: normal;
-font-weight: normal;
-src: url('fonts/helvetica/Helvetica-Bold.woff') format('woff');
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: normal;
+    src: url('fonts/helvetica/Helvetica-Bold.woff') format('woff');
 }
 
 body {
@@ -17,10 +17,8 @@ body {
     color: white;
     text-align: center;
     margin: auto;
-    width: 640px;
     padding: 50px;
     font-family: Helvetica;
-
 }
 
 h1 {
@@ -37,14 +35,7 @@ h2 {
 
 p, a {
     font-size: 20px;
-  font-family: Helvetica;
-}
-
-img
-{
-    height: 275px;
-    width: auto;
-    border-radius: 6px;
+    font-family: Helvetica;
 }
 
 a:link {
